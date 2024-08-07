@@ -1,0 +1,5 @@
+
+Epoch 1/8, Train Loss: 0.2920, Test Loss: 0.1069, Test Accuracy: 0.9688, Epoch Time: 12.26 seconds
+Epoch 2/8, Train Loss: 0.0810, Test Loss: 0.0739, Test Accuracy: 0.9756, Epoch Time: 10.85 seconds
+Epoch 3/8, Train Loss: 0.0559, Test Loss: 0.0599, Test Accuracy: 0.9798, Epoch Time: 11.37 seconds
+Epoch 4/8, Train Loss: 0.0437, Test Loss: 0.0375, Test Accuracy: 0.9868, Epoch Time: 11.08 seconds

@@ -1,0 +1,123 @@
+2024-03-06 09:48:33,198 INFO    MainThread:17592 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2024-03-06 09:48:33,198 INFO    MainThread:17592 [wandb_setup.py:_flush():76] Configure stats pid to 17592
+2024-03-06 09:48:33,198 INFO    MainThread:17592 [wandb_setup.py:_flush():76] Loading settings from C:\Users\hp\.config\wandb\settings
+2024-03-06 09:48:33,198 INFO    MainThread:17592 [wandb_setup.py:_flush():76] Loading settings from C:\Users\hp\Desktop\CV\Assignment_2\wandb\settings
+2024-03-06 09:48:33,198 INFO    MainThread:17592 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-06 09:48:33,199 INFO    MainThread:17592 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-06 09:48:33,199 INFO    MainThread:17592 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-03-06 09:48:33,199 INFO    MainThread:17592 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-03-06 09:48:33,199 INFO    MainThread:17592 [wandb_init.py:_log_setup():526] Logging user logs to C:\Users\hp\Desktop\CV\Assignment_2\wandb\run-20240306_094833-z3412rn9\logs\debug.log
+2024-03-06 09:48:33,200 INFO    MainThread:17592 [wandb_init.py:_log_setup():527] Logging internal logs to C:\Users\hp\Desktop\CV\Assignment_2\wandb\run-20240306_094833-z3412rn9\logs\debug-internal.log
+2024-03-06 09:48:33,200 INFO    MainThread:17592 [wandb_init.py:_jupyter_setup():472] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000021DBEDD4810>
+2024-03-06 09:48:33,200 INFO    MainThread:17592 [wandb_init.py:init():566] calling init triggers
+2024-03-06 09:48:33,200 INFO    MainThread:17592 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-03-06 09:48:33,200 INFO    MainThread:17592 [wandb_init.py:init():591] re-initializing run, found existing run on stack: oyjusw69
+2024-03-06 09:48:33,203 INFO    MainThread:17592 [wandb_run.py:_finish():1970] finishing run tejas591995/mnist-training/oyjusw69
+2024-03-06 09:48:33,203 INFO    MainThread:17592 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-03-06 09:48:33,204 INFO    MainThread:17592 [wandb_run.py:_restore():2193] restore
+2024-03-06 09:48:33,205 INFO    MainThread:17592 [wandb_run.py:_restore():2199] restore done
+2024-03-06 09:48:37,367 INFO    MainThread:17592 [wandb_init.py:init():616] starting backend
+2024-03-06 09:48:37,367 INFO    MainThread:17592 [wandb_init.py:init():620] setting up manager
+2024-03-06 09:48:37,371 INFO    MainThread:17592 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-03-06 09:48:37,372 INFO    MainThread:17592 [wandb_init.py:init():628] backend started and connected
+2024-03-06 09:48:37,380 INFO    MainThread:17592 [wandb_run.py:_label_probe_notebook():1295] probe notebook
+2024-03-06 09:48:37,380 INFO    MainThread:17592 [wandb_run.py:_label_probe_notebook():1305] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-03-06 09:48:37,380 INFO    MainThread:17592 [wandb_init.py:init():720] updated telemetry
+2024-03-06 09:48:37,383 INFO    MainThread:17592 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-03-06 09:49:19,740 WARNING MainThread:17592 [wandb_init.py:init():1198] interrupted
+Traceback (most recent call last):
+  File "C:\Users\hp\anaconda3\Lib\site-packages\wandb\sdk\wandb_init.py", line 1176, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "C:\Users\hp\anaconda3\Lib\site-packages\wandb\sdk\wandb_init.py", line 756, in init
+    result = run_init_handle.wait(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\anaconda3\Lib\site-packages\wandb\sdk\lib\mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\anaconda3\Lib\site-packages\wandb\sdk\lib\mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\anaconda3\Lib\site-packages\wandb\sdk\lib\mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\anaconda3\Lib\threading.py", line 622, in wait
+    signaled = self._cond.wait(timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\anaconda3\Lib\threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+2024-03-06 09:49:26,888 INFO    MainThread:17592 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2024-03-06 09:49:26,888 INFO    MainThread:17592 [wandb_setup.py:_flush():76] Configure stats pid to 17592
+2024-03-06 09:49:26,888 INFO    MainThread:17592 [wandb_setup.py:_flush():76] Loading settings from C:\Users\hp\.config\wandb\settings
+2024-03-06 09:49:26,888 INFO    MainThread:17592 [wandb_setup.py:_flush():76] Loading settings from C:\Users\hp\Desktop\CV\Assignment_2\wandb\settings
+2024-03-06 09:49:26,888 INFO    MainThread:17592 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-06 09:49:26,888 INFO    MainThread:17592 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-06 09:49:26,888 INFO    MainThread:17592 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-03-06 09:49:26,888 INFO    MainThread:17592 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-03-06 09:49:26,889 INFO    MainThread:17592 [wandb_init.py:_log_setup():526] Logging user logs to C:\Users\hp\Desktop\CV\Assignment_2\wandb\run-20240306_094926-yd71xek3\logs\debug.log
+2024-03-06 09:49:26,889 INFO    MainThread:17592 [wandb_init.py:_log_setup():527] Logging internal logs to C:\Users\hp\Desktop\CV\Assignment_2\wandb\run-20240306_094926-yd71xek3\logs\debug-internal.log
+2024-03-06 09:49:26,889 INFO    MainThread:17592 [wandb_init.py:init():566] calling init triggers
+2024-03-06 09:49:26,889 INFO    MainThread:17592 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-03-06 09:49:26,889 INFO    MainThread:17592 [wandb_init.py:init():616] starting backend
+2024-03-06 09:49:26,889 INFO    MainThread:17592 [wandb_init.py:init():620] setting up manager
+2024-03-06 09:49:26,890 INFO    MainThread:17592 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-03-06 09:49:26,891 INFO    MainThread:17592 [wandb_init.py:init():628] backend started and connected
+2024-03-06 09:49:26,896 INFO    MainThread:17592 [wandb_run.py:_label_probe_notebook():1295] probe notebook
+2024-03-06 09:49:26,896 INFO    MainThread:17592 [wandb_run.py:_label_probe_notebook():1305] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-03-06 09:49:26,896 INFO    MainThread:17592 [wandb_init.py:init():720] updated telemetry
+2024-03-06 09:49:26,898 INFO    MainThread:17592 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-03-06 09:50:57,628 ERROR   MainThread:17592 [wandb_init.py:init():779] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-03-06 09:50:57,772 ERROR   MainThread:17592 [wandb_init.py:init():1194] Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+Traceback (most recent call last):
+  File "C:\Users\hp\anaconda3\Lib\site-packages\wandb\sdk\wandb_init.py", line 1176, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "C:\Users\hp\anaconda3\Lib\site-packages\wandb\sdk\wandb_init.py", line 785, in init
+    raise error
+wandb.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-03-06 09:51:00,555 WARNING MsgRouterThr:17592 [router.py:message_loop():77] message_loop has been closed
+2024-03-06 09:51:00,555 WARNING MsgRouterThr:17592 [router.py:message_loop():77] message_loop has been closed
+2024-03-06 09:51:00,556 WARNING MsgRouterThr:17592 [router.py:message_loop():77] message_loop has been closed
+2024-03-06 09:54:29,285 INFO    MainThread:17592 [wandb_setup.py:_flush():76] Current SDK version is 0.16.4
+2024-03-06 09:54:29,285 INFO    MainThread:17592 [wandb_setup.py:_flush():76] Configure stats pid to 17592
+2024-03-06 09:54:29,285 INFO    MainThread:17592 [wandb_setup.py:_flush():76] Loading settings from C:\Users\hp\.config\wandb\settings
+2024-03-06 09:54:29,285 INFO    MainThread:17592 [wandb_setup.py:_flush():76] Loading settings from C:\Users\hp\Desktop\CV\Assignment_2\wandb\settings
+2024-03-06 09:54:29,285 INFO    MainThread:17592 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-06 09:54:29,285 INFO    MainThread:17592 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-06 09:54:29,286 INFO    MainThread:17592 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-03-06 09:54:29,286 INFO    MainThread:17592 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-03-06 09:54:29,286 INFO    MainThread:17592 [wandb_init.py:_log_setup():526] Logging user logs to C:\Users\hp\Desktop\CV\Assignment_2\wandb\run-20240306_095429-7jp6k2xi\logs\debug.log
+2024-03-06 09:54:29,286 INFO    MainThread:17592 [wandb_init.py:_log_setup():527] Logging internal logs to C:\Users\hp\Desktop\CV\Assignment_2\wandb\run-20240306_095429-7jp6k2xi\logs\debug-internal.log
+2024-03-06 09:54:29,286 INFO    MainThread:17592 [wandb_init.py:init():566] calling init triggers
+2024-03-06 09:54:29,286 INFO    MainThread:17592 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.001, 'batch_size': 100, 'optimizer': 'adam'}
+2024-03-06 09:54:29,286 INFO    MainThread:17592 [wandb_init.py:init():616] starting backend
+2024-03-06 09:54:29,286 INFO    MainThread:17592 [wandb_init.py:init():620] setting up manager
+2024-03-06 09:54:29,431 ERROR   MainThread:17592 [wandb_init.py:init():1204] error
+Traceback (most recent call last):
+  File "C:\Users\hp\anaconda3\Lib\site-packages\wandb\sdk\wandb_init.py", line 1176, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "C:\Users\hp\anaconda3\Lib\site-packages\wandb\sdk\wandb_init.py", line 621, in init
+    manager._inform_init(
+  File "C:\Users\hp\anaconda3\Lib\site-packages\wandb\sdk\wandb_manager.py", line 200, in _inform_init
+    svc_iface._svc_inform_init(settings=settings, run_id=run_id)
+  File "C:\Users\hp\anaconda3\Lib\site-packages\wandb\sdk\service\service_sock.py", line 39, in _svc_inform_init
+    self._sock_client.send(inform_init=inform_init)
+  File "C:\Users\hp\anaconda3\Lib\site-packages\wandb\sdk\lib\sock_client.py", line 211, in send
+    self.send_server_request(server_req)
+  File "C:\Users\hp\anaconda3\Lib\site-packages\wandb\sdk\lib\sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "C:\Users\hp\anaconda3\Lib\site-packages\wandb\sdk\lib\sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "C:\Users\hp\anaconda3\Lib\site-packages\wandb\sdk\lib\sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host

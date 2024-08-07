@@ -1,0 +1,10 @@
+
+Epoch 1/2, Train Loss: 0.2671, Test Loss: 0.0714, Test Accuracy: 0.9777, Epoch Time: 14.30 seconds
+Epoch 2/2, Train Loss: 0.0712, Test Loss: 0.0584, Test Accuracy: 0.9803, Epoch Time: 12.22 seconds
+[[100, 0.001, 'adam'], [75, 0.005, 'adam'], [120, 0.01, 'sgd'], [90, 0.01, 'sgd'], [60, 0.05, 'rmsprop'], [80, 0.1, 'rmsprop']]
+100 0.001 adam
+75 0.005 adam
+120 0.01 sgd
+90 0.01 sgd
+60 0.05 rmsprop
+80 0.1 rmsprop

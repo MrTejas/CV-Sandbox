@@ -1,0 +1,11 @@
+
+Epoch 1/10, Train Loss: 2.2675, Test Loss: 2.1156, Test Accuracy: 0.4701, Epoch Time: 8.78 seconds
+Epoch 2/10, Train Loss: 1.0227, Test Loss: 0.3776, Test Accuracy: 0.8852, Epoch Time: 8.72 seconds
+Epoch 3/10, Train Loss: 0.2868, Test Loss: 0.1982, Test Accuracy: 0.9387, Epoch Time: 8.71 seconds
+Epoch 4/10, Train Loss: 0.1879, Test Loss: 0.1493, Test Accuracy: 0.9551, Epoch Time: 8.85 seconds
+Epoch 5/10, Train Loss: 0.1455, Test Loss: 0.1176, Test Accuracy: 0.9637, Epoch Time: 8.72 seconds
+Epoch 6/10, Train Loss: 0.1222, Test Loss: 0.1051, Test Accuracy: 0.9676, Epoch Time: 8.87 seconds
+Epoch 7/10, Train Loss: 0.1066, Test Loss: 0.0909, Test Accuracy: 0.9733, Epoch Time: 10.03 seconds
+Epoch 8/10, Train Loss: 0.0953, Test Loss: 0.0840, Test Accuracy: 0.9728, Epoch Time: 9.66 seconds
+Epoch 9/10, Train Loss: 0.0854, Test Loss: 0.0776, Test Accuracy: 0.9755, Epoch Time: 8.80 seconds
+Epoch 10/10, Train Loss: 0.0786, Test Loss: 0.0681, Test Accuracy: 0.9787, Epoch Time: 8.67 seconds

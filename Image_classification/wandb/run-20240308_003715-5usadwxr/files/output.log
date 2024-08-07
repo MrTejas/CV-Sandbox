@@ -1,0 +1,4 @@
+Epoch 1/2, Train Loss: 0.0229, Test Loss: 2.2501, Test Accuracy: 0.1561, Epoch Time: 0.12 seconds
+Epoch 2/2, Train Loss: 0.0218, Test Loss: 2.0753, Test Accuracy: 0.5000, Epoch Time: 0.12 seconds
+Number of train samples :  600
+----------------------------------------------
